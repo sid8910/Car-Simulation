@@ -19,8 +19,8 @@ MonoBehaviour:
     height: 821
   m_ShowMode: 4
   m_Title: 
-  m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_RootView: {fileID: 7}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -30,22 +30,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 9}
-  - {fileID: 3}
+  m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 30
-    width: 1536
-    height: 771
-  m_MinSize: {x: 683, y: 492}
-  m_MaxSize: {x: 14004, y: 14042}
-  vertical: 0
-  controlID: 9
+    y: 500
+    width: 1231
+    height: 271
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  - {fileID: 21}
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -60,9 +62,82 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1088
+    x: 0
     y: 0
-    width: 448
+    width: 273
+    height: 500
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1231
+    height: 500
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
+  vertical: 0
+  controlID: 11
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 10}
+  - {fileID: 6}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1536
+    height: 771
+  m_MinSize: {x: 681, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
+  vertical: 0
+  controlID: 9
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1231
+    y: 0
+    width: 305
     height: 771
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
@@ -73,59 +148,8 @@ MonoBehaviour:
   - {fileID: 14}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 2
---- !u!114 &4
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 327
-    height: 449
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 18}
-  m_Panes:
-  - {fileID: 18}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &5
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 449
-    width: 1088
-    height: 322
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 16}
-  m_Panes:
-  - {fileID: 16}
-  - {fileID: 21}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &6
+  m_LastSelected: 3
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -137,18 +161,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 7}
-  - {fileID: 2}
   - {fileID: 8}
+  - {fileID: 5}
+  - {fileID: 9}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1536
     height: 821
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
---- !u!114 &7
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -169,7 +193,7 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &8
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -189,30 +213,6 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &9
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 10}
-  - {fileID: 5}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1088
-    height: 771
-  m_MinSize: {x: 406, y: 492}
-  m_MaxSize: {x: 10002, y: 14042}
-  vertical: 1
-  controlID: 10
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,17 +226,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 4}
-  - {fileID: 11}
+  - {fileID: 2}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1088
-    height: 449
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
-  vertical: 0
-  controlID: 11
+    width: 1231
+    height: 771
+  m_MinSize: {x: 404, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
+  vertical: 1
+  controlID: 10
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,12 +251,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 327
+    x: 273
     y: 0
-    width: 761
-    height: 449
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 958
+    height: 500
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -481,7 +481,7 @@ MonoBehaviour:
     - name: origin/master
       tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 0
+    currentBranchHasUpdate: 1
     currentStatusEntriesHasUpdate: 1
     currentLocksHasUpdate: 1
     commitBody: 
@@ -490,8 +490,84 @@ MonoBehaviour:
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys: []
-        values: []
+        keys:
+        - 00000000000000001000000000000000
+        - 60460ef698fdc264db79f077a071d429
+        - d2d3c983bd5199b4a9f8c3e18a9aff6b
+        - e3fb53201d95b8140bc9684fd0853c58
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Lowpoly_City_Free_Pack.obj
+          label: Lowpoly_City_Free_Pack.obj
+          level: 1
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Lowpoly_City_Free_Pack.obj
+            fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Lowpoly_City_Free_Pack.obj
+            projectPath: Assets\Lowpoly_City_Free_Pack.obj
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: Assets\Scene
+          label: Scene
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Scene\scene01.unity
+          label: scene01.unity
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scene\scene01.unity
+            fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Scene\scene01.unity
+            projectPath: Assets\Scene\scene01.unity
+            originalPath: 
+            status: 3
+            staged: 0
       folders:
         keys:
         - .vs
@@ -499,6 +575,8 @@ MonoBehaviour:
         - .vs\Car Simulation\v15
         - .vs\Car Simulation\v15\Server
         - .vs\Car Simulation\v15\Server\sqlite3
+        - Assets
+        - Assets\Scene
         - Library
         values:
         - path: .vs
@@ -576,6 +654,42 @@ MonoBehaviour:
         - path: .vs\Car Simulation\v15\Server\sqlite3
           label: sqlite3
           level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Scene
+          label: Scene
+          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -763,6 +877,114 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Lowpoly_City_Free_Pack.obj
+        label: Lowpoly_City_Free_Pack.obj
+        level: 1
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Lowpoly_City_Free_Pack.obj
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Lowpoly_City_Free_Pack.obj
+          projectPath: Assets\Lowpoly_City_Free_Pack.obj
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Lowpoly_City_Free_Pack.obj.meta
+        label: Lowpoly_City_Free_Pack.obj.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Lowpoly_City_Free_Pack.obj.meta
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Lowpoly_City_Free_Pack.obj.meta
+          projectPath: Assets\Lowpoly_City_Free_Pack.obj.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Scene
+        label: Scene
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Scene\scene01.unity
+        label: scene01.unity
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scene\scene01.unity
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Scene\scene01.unity
+          projectPath: Assets\Scene\scene01.unity
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Car Simulation.sln
+        label: Car Simulation.sln
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Car Simulation.sln
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Car Simulation.sln
+          projectPath: Car Simulation.sln
+          originalPath: 
+          status: 3
+          staged: 0
       - path: Library
         label: Library
         level: 0
@@ -781,6 +1003,24 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
+      - path: Library\assetDatabase3
+        label: assetDatabase3
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\assetDatabase3
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\assetDatabase3
+          projectPath: Library\assetDatabase3
+          originalPath: 
+          status: 3
+          staged: 0
       - path: Library\CurrentLayout.dwlt
         label: CurrentLayout.dwlt
         level: 1
@@ -796,6 +1036,60 @@ MonoBehaviour:
           path: Library\CurrentLayout.dwlt
           fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\CurrentLayout.dwlt
           projectPath: Library\CurrentLayout.dwlt
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\expandedItems
+        label: expandedItems
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\expandedItems
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\expandedItems
+          projectPath: Library\expandedItems
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\LastSceneManagerSetup.txt
+        label: LastSceneManagerSetup.txt
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\LastSceneManagerSetup.txt
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\LastSceneManagerSetup.txt
+          projectPath: Library\LastSceneManagerSetup.txt
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\ProjectSettings.asset
+        label: ProjectSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\ProjectSettings.asset
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\ProjectSettings.asset
+          projectPath: Library\ProjectSettings.asset
           originalPath: 
           status: 3
           staged: 0
@@ -849,9 +1143,57 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
+    - path: Assets\Lowpoly_City_Free_Pack.obj
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Lowpoly_City_Free_Pack.obj
+      projectPath: Assets\Lowpoly_City_Free_Pack.obj
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Lowpoly_City_Free_Pack.obj.meta
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Lowpoly_City_Free_Pack.obj.meta
+      projectPath: Assets\Lowpoly_City_Free_Pack.obj.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Scene\scene01.unity
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Scene\scene01.unity
+      projectPath: Assets\Scene\scene01.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Car Simulation.sln
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Car Simulation.sln
+      projectPath: Car Simulation.sln
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
     - path: Library\CurrentLayout.dwlt
       fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\CurrentLayout.dwlt
       projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\expandedItems
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\LastSceneManagerSetup.txt
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\LastSceneManagerSetup.txt
+      projectPath: Library\LastSceneManagerSetup.txt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ProjectSettings.asset
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\ProjectSettings.asset
+      projectPath: Library\ProjectSettings.asset
       originalPath: 
       status: 3
       staged: 0
@@ -861,15 +1203,15 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    changedFilesText: 4 changed files
+    changedFilesText: 12 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2018-08-21T17:22:13.962+05:30
+      updatedTimeString: 2018-08-22T19:27:05.063+05:30
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-08-21T17:48:50.624+05:30
+      updatedTimeString: 2018-08-22T19:27:05.518+05:30
       cacheType: 5
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2018-08-22T19:27:05.162+05:30
       cacheType: 6
   historyView:
     currentLogHasUpdate: 0
@@ -9565,13 +9907,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the master remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2018-08-21T17:22:13.962+05:30
+    updatedTimeString: 2018-08-21T23:23:24.915+05:30
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2018-08-21T17:22:36.815+05:30
+    updatedTimeString: 2018-08-21T21:25:09.150+05:30
     cacheType: 4
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2018-08-21T17:44:49.255+05:30
+    updatedTimeString: 0001-01-01T00:00:00.000+00:00
     cacheType: 5
   pullButtonContent:
     m_Text: Pull
@@ -9591,8 +9933,8 @@ MonoBehaviour:
     m_Tooltip: 
   repositoryProgressValue: 0
   repositoryProgressMessage: 
-  appManagerProgressValue: 0
-  appManagerProgressMessage: Initializing...
+  appManagerProgressValue: 1
+  appManagerProgressMessage: Initialization failed
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -9677,7 +10019,7 @@ MonoBehaviour:
     x: 329
     y: 92
     width: 757
-    height: 479
+    height: 542
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &16
 MonoBehaviour:
@@ -9702,9 +10044,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 541
-    width: 1086
-    height: 301
+    y: 592
+    width: 1229
+    height: 250
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -9727,10 +10069,10 @@ MonoBehaviour:
   m_LastProjectPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: de270000
-    m_LastClickedID: 10206
-    m_ExpandedIDs: 00000000de2700003628000050280000822800009228000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 27}
+    m_SelectedIDs: 0a280000
+    m_LastClickedID: 10250
+    m_ExpandedIDs: 000000000a280000aa280000e4280000e62800003a2900004c2900004e29000074290000582a0000882b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -9746,7 +10088,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 6}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -9758,7 +10100,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000de27000082280000
+    m_ExpandedIDs: 000000000a280000aa280000e4280000e62800003a2900004c2900004e29000074290000582a0000882b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -9786,7 +10128,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c623000000000000
+    m_ExpandedInstanceIDs: c6230000000000005a320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -9802,7 +10144,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 2}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -9812,7 +10154,7 @@ MonoBehaviour:
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 35
-  m_DirectoriesAreaWidth: 115
+  m_DirectoriesAreaWidth: 339
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -9835,9 +10177,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1090
+    x: 1233
     y: 92
-    width: 446
+    width: 303
     height: 750
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ScrollPosition: {x: 0, y: 0}
@@ -9871,14 +10213,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 92
-    width: 325
-    height: 428
+    width: 271
+    height: 479
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 9cfbffff9efbffff00000000
+    m_ExpandedIDs: 9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -9894,10 +10236,10 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 4}
+      m_ClientGUIView: {fileID: 3}
     m_SearchString: 
   m_ExpandedScenes:
-  - Demo
+  - scene01
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -9923,25 +10265,25 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 329
+    x: 275
     y: 92
-    width: 757
-    height: 428
+    width: 954
+    height: 479
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 10557.853276701273
+  lastFramingTime: 1629.3457731138985
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -21.11084, y: 6.499672, z: 28.435944}
+    m_Target: {x: 7.488, y: 2.0328295, z: -7.626155}
     speed: 2
-    m_Value: {x: -21.11084, y: 6.499672, z: 28.435944}
+    m_Value: {x: 7.488, y: 2.0328295, z: -7.626155}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
     showFog: 1
-    showMaterialUpdate: 0
+    showMaterialUpdate: 1
     showSkybox: 1
     showFlares: 1
     showImageEffects: 1
@@ -9960,19 +10302,19 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.077820264, y: -0.8579916, z: 0.13654113, w: 0.48910037}
+    m_Target: {x: -0.08852634, y: 0.7701059, z: -0.10954, w: -0.6221743}
     speed: 2
-    m_Value: {x: 0.07781761, y: -0.8579623, z: 0.13653648, w: 0.48908368}
+    m_Value: {x: -0.088526346, y: 0.77010596, z: -0.10954001, w: -0.6221744}
   m_Size:
-    m_Target: 722.87866
+    m_Target: 7.327946
     speed: 2
-    m_Value: 722.87866
+    m_Value: 7.327946
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: -0.09344481, y: 0.77722704, z: -0.118902534, w: -0.6107769}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -10000,9 +10342,9 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 329
+    x: 275
     y: 92
-    width: 757
+    width: 954
     height: 479
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
@@ -10013,8 +10355,8 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -378.5
-    m_HBaseRangeMax: 378.5
+    m_HBaseRangeMin: -477
+    m_HBaseRangeMax: 477
     m_VBaseRangeMin: -231
     m_VBaseRangeMax: 231
     m_HAllowExceedBaseRangeMin: 1
@@ -10033,25 +10375,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 757
+      width: 954
       height: 462
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 378.5, y: 231}
+    m_Translation: {x: 477, y: 231}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -378.5
+      x: -477
       y: -231
-      width: 757
+      width: 954
       height: 462
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 757, y: 479}
+  m_LastWindowPixelSize: {x: 954, y: 479}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
