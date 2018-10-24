@@ -323,7 +323,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Car\Easy Suspension\CameraController.cs" />
-    <Compile Include="Assets\Car\Easy Suspension\CameraHelper.cs" />
     <Compile Include="Assets\Car\Easy Suspension\EasySuspension.cs" />
     <Compile Include="Assets\Car\Easy Suspension\HiResScreenShot.cs" />
     <Compile Include="Assets\Car\Easy Suspension\RearWheelDrive.cs" />

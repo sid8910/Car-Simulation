@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 7}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -38,7 +38,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 500
-    width: 1231
+    width: 1259
     height: 271
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -64,10 +64,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 261
+    width: 207
     height: 500
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -91,10 +91,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1231
+    width: 1259
     height: 500
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
   controlID: 11
 --- !u!114 &5
@@ -117,7 +117,7 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 771
-  m_MinSize: {x: 683, y: 492}
+  m_MinSize: {x: 506, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
   controlID: 9
@@ -135,20 +135,20 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1231
+    x: 1259
     y: 0
-    width: 305
+    width: 277
     height: 771
-  m_MinSize: {x: 277, y: 71}
+  m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 17}
   - {fileID: 13}
   - {fileID: 14}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 3
+  m_LastSelected: 0
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +170,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 821
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &8
 MonoBehaviour:
@@ -231,9 +231,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1231
+    width: 1259
     height: 771
-  m_MinSize: {x: 406, y: 492}
+  m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
   controlID: 10
@@ -251,9 +251,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 261
+    x: 207
     y: 0
-    width: 970
+    width: 1052
     height: 500
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
@@ -285,9 +285,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1233
+    x: 1261
     y: 92
-    width: 303
+    width: 275
     height: 750
   m_PersistentViewDataDictionary: {fileID: 0}
   progressMessageClearTime: -1
@@ -296,8 +296,8 @@ MonoBehaviour:
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 1
-  appManagerProgressHasUpdate: 1
+  repositoryProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 0
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -482,12 +482,12 @@ MonoBehaviour:
       tracking: '[None]'
   changesView:
     currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 1
-    currentLocksHasUpdate: 1
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
     currentBranch: '[master]'
-    treeScroll: {x: 0, y: 33.165356}
+    treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
         keys:
@@ -496,8 +496,6 @@ MonoBehaviour:
         - 4436865f2cd1f9540954436711ebb5b9
         - 37b8a96c161457d43a8f81d51cd86778
         - 0304cab9b4e12354492619104586b154
-        - e4570831dff7af544af14d962e524990
-        - dea8239388168334b8605f2a7c01cb09
         - d2d3c983bd5199b4a9f8c3e18a9aff6b
         - e3fb53201d95b8140bc9684fd0853c58
         values:
@@ -572,7 +570,7 @@ MonoBehaviour:
               Suspension\CameraHelper.cs
             projectPath: Assets\Car\Easy Suspension\CameraHelper.cs
             originalPath: 
-            status: 1
+            status: 5
             staged: 0
         - path: Assets\Car\Easy Suspension\RearWheelDrive.cs
           label: RearWheelDrive.cs
@@ -590,42 +588,6 @@ MonoBehaviour:
             fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Car\Easy
               Suspension\RearWheelDrive.cs
             projectPath: Assets\Car\Easy Suspension\RearWheelDrive.cs
-            originalPath: 
-            status: 3
-            staged: 0
-        - path: Assets\Environment
-          label: Environment
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Environment\initialbase.ma
-          label: initialbase.ma
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Environment\initialbase.ma
-            fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\initialbase.ma
-            projectPath: Assets\Environment\initialbase.ma
             originalPath: 
             status: 3
             staged: 0
@@ -670,15 +632,27 @@ MonoBehaviour:
         - .vs
         - .vs\Car Simulation
         - .vs\Car Simulation\v15
-        - .vs\Car Simulation\v15\Server
-        - .vs\Car Simulation\v15\Server\sqlite3
         - Assets
         - Assets\Car
         - Assets\Car\Easy Suspension
-        - Assets\Environment
         - Assets\Scene
         - Library
+        - Library\metadata
+        - Library\metadata\00
         - Library\ScriptAssemblies
+        - scene01Build_Data
+        - scene01Build_Data\Managed
+        - scene02Build_Data
+        - scene02Build_Data\Managed
+        - scene02Build_Data\Mono
+        - scene02Build_Data\Mono\EmbedRuntime
+        - scene02Build_Data\Mono\etc
+        - scene02Build_Data\Mono\etc\mono
+        - scene02Build_Data\Mono\etc\mono\1.0
+        - scene02Build_Data\Mono\etc\mono\2.0
+        - scene02Build_Data\Mono\etc\mono\2.0\Browsers
+        - scene02Build_Data\Mono\etc\mono\mconfig
+        - scene02Build_Data\Resources
         values:
         - path: .vs
           label: .vs
@@ -719,42 +693,6 @@ MonoBehaviour:
         - path: .vs\Car Simulation\v15
           label: v15
           level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: .vs\Car Simulation\v15\Server
-          label: Server
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: .vs\Car Simulation\v15\Server\sqlite3
-          label: sqlite3
-          level: 4
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -824,24 +762,6 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
-        - path: Assets\Environment
-          label: Environment
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
         - path: Assets\Scene
           label: Scene
           level: 1
@@ -878,8 +798,278 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
+        - path: Library\metadata
+          label: metadata
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\metadata\00
+          label: 00
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
         - path: Library\ScriptAssemblies
           label: ScriptAssemblies
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: scene01Build_Data
+          label: scene01Build_Data
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: scene01Build_Data\Managed
+          label: Managed
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: scene02Build_Data
+          label: scene02Build_Data
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: scene02Build_Data\Managed
+          label: Managed
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: scene02Build_Data\Mono
+          label: Mono
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: scene02Build_Data\Mono\EmbedRuntime
+          label: EmbedRuntime
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: scene02Build_Data\Mono\etc
+          label: etc
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: scene02Build_Data\Mono\etc\mono
+          label: mono
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: scene02Build_Data\Mono\etc\mono\1.0
+          label: 1.0
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: scene02Build_Data\Mono\etc\mono\2.0
+          label: 2.0
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: scene02Build_Data\Mono\etc\mono\2.0\Browsers
+          label: Browsers
+          level: 5
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: scene02Build_Data\Mono\etc\mono\mconfig
+          label: mconfig
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: scene02Build_Data\Resources
+          label: Resources
           level: 1
           isFolder: 1
           isContainer: 0
@@ -996,60 +1186,6 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
-      - path: .vs\Car Simulation\v15\Server
-        label: Server
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: .vs\Car Simulation\v15\Server\sqlite3
-        label: sqlite3
-        level: 4
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: .vs\Car Simulation\v15\Server\sqlite3\storage.ide
-        label: storage.ide
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .vs\Car Simulation\v15\Server\sqlite3\storage.ide
-          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\.vs\Car Simulation\v15\Server\sqlite3\storage.ide
-          projectPath: .vs\Car Simulation\v15\Server\sqlite3\storage.ide
-          originalPath: 
-          status: 3
-          staged: 0
       - path: Assets
         label: Assets
         level: 0
@@ -1121,7 +1257,7 @@ MonoBehaviour:
             Suspension\CameraHelper.cs
           projectPath: Assets\Car\Easy Suspension\CameraHelper.cs
           originalPath: 
-          status: 1
+          status: 5
           staged: 0
       - path: Assets\Car\Easy Suspension\CameraHelper.cs.meta
         label: CameraHelper.cs.meta
@@ -1140,7 +1276,7 @@ MonoBehaviour:
             Suspension\CameraHelper.cs.meta
           projectPath: Assets\Car\Easy Suspension\CameraHelper.cs.meta
           originalPath: 
-          status: 1
+          status: 5
           staged: 0
       - path: Assets\Car\Easy Suspension\RearWheelDrive.cs
         label: RearWheelDrive.cs
@@ -1158,60 +1294,6 @@ MonoBehaviour:
           fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Car\Easy
             Suspension\RearWheelDrive.cs
           projectPath: Assets\Car\Easy Suspension\RearWheelDrive.cs
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Assets\Environment
-        label: Environment
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Assets\Environment\initialbase.ma
-        label: initialbase.ma
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Environment\initialbase.ma
-          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\initialbase.ma
-          projectPath: Assets\Environment\initialbase.ma
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Assets\Environment\initialbase.ma.meta
-        label: initialbase.ma.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Environment\initialbase.ma.meta
-          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\initialbase.ma.meta
-          projectPath: Assets\Environment\initialbase.ma.meta
           originalPath: 
           status: 3
           staged: 0
@@ -1305,8 +1387,8 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
-      - path: Library\CurrentLayout.dwlt
-        label: CurrentLayout.dwlt
+      - path: Library\EditorUserBuildSettings.asset
+        label: EditorUserBuildSettings.asset
         level: 1
         isFolder: 0
         isContainer: 0
@@ -1317,15 +1399,51 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Library\CurrentLayout.dwlt
-          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\CurrentLayout.dwlt
-          projectPath: Library\CurrentLayout.dwlt
+          path: Library\EditorUserBuildSettings.asset
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\EditorUserBuildSettings.asset
+          projectPath: Library\EditorUserBuildSettings.asset
           originalPath: 
           status: 3
           staged: 0
-      - path: Library\InspectorExpandedItems.asset
-        label: InspectorExpandedItems.asset
+      - path: Library\metadata
+        label: metadata
         level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\metadata\00
+        label: 00
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\metadata\00\00000000000000004000000000000000
+        label: 00000000000000004000000000000000
+        level: 3
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -1335,9 +1453,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Library\InspectorExpandedItems.asset
-          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\InspectorExpandedItems.asset
-          projectPath: Library\InspectorExpandedItems.asset
+          path: Library\metadata\00\00000000000000004000000000000000
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\metadata\00\00000000000000004000000000000000
+          projectPath: Library\metadata\00\00000000000000004000000000000000
           originalPath: 
           status: 3
           staged: 0
@@ -1395,8 +1513,26 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
-      - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-        label: shadercompiler-UnityShaderCompiler.exe0.log
+      - path: scene01Build_Data
+        label: scene01Build_Data
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: scene01Build_Data\globalgamemanagers
+        label: globalgamemanagers
         level: 1
         isFolder: 0
         isContainer: 0
@@ -1407,11 +1543,2568 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\shadercompiler-UnityShaderCompiler.exe0.log
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          path: scene01Build_Data\globalgamemanagers
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene01Build_Data\globalgamemanagers
+          projectPath: scene01Build_Data\globalgamemanagers
           originalPath: 
           status: 3
+          staged: 0
+      - path: scene01Build_Data\globalgamemanagers.assets
+        label: globalgamemanagers.assets
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene01Build_Data\globalgamemanagers.assets
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene01Build_Data\globalgamemanagers.assets
+          projectPath: scene01Build_Data\globalgamemanagers.assets
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: scene01Build_Data\level0
+        label: level0
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene01Build_Data\level0
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene01Build_Data\level0
+          projectPath: scene01Build_Data\level0
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: scene01Build_Data\Managed
+        label: Managed
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: scene01Build_Data\Managed\Assembly-CSharp.dll
+        label: Assembly-CSharp.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene01Build_Data\Managed\Assembly-CSharp.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene01Build_Data\Managed\Assembly-CSharp.dll
+          projectPath: scene01Build_Data\Managed\Assembly-CSharp.dll
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: scene01Build_Data\sharedassets0.assets
+        label: sharedassets0.assets
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene01Build_Data\sharedassets0.assets
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene01Build_Data\sharedassets0.assets
+          projectPath: scene01Build_Data\sharedassets0.assets
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: scene01Build_Data\sharedassets0.assets.resS
+        label: sharedassets0.assets.resS
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene01Build_Data\sharedassets0.assets.resS
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene01Build_Data\sharedassets0.assets.resS
+          projectPath: scene01Build_Data\sharedassets0.assets.resS
+          originalPath: 
+          status: 5
+          staged: 0
+      - path: scene02Build.exe
+        label: scene02Build.exe
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build.exe
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build.exe
+          projectPath: scene02Build.exe
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data
+        label: scene02Build_Data
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: scene02Build_Data\app.info
+        label: app.info
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\app.info
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\app.info
+          projectPath: scene02Build_Data\app.info
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\boot.config
+        label: boot.config
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\boot.config
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\boot.config
+          projectPath: scene02Build_Data\boot.config
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\globalgamemanagers
+        label: globalgamemanagers
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\globalgamemanagers
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\globalgamemanagers
+          projectPath: scene02Build_Data\globalgamemanagers
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\globalgamemanagers.assets
+        label: globalgamemanagers.assets
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\globalgamemanagers.assets
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\globalgamemanagers.assets
+          projectPath: scene02Build_Data\globalgamemanagers.assets
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\level0
+        label: level0
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\level0
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\level0
+          projectPath: scene02Build_Data\level0
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\level0.resS
+        label: level0.resS
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\level0.resS
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\level0.resS
+          projectPath: scene02Build_Data\level0.resS
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed
+        label: Managed
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: scene02Build_Data\Managed\Assembly-CSharp.dll
+        label: Assembly-CSharp.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\Assembly-CSharp.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\Assembly-CSharp.dll
+          projectPath: scene02Build_Data\Managed\Assembly-CSharp.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\Mono.Security.dll
+        label: Mono.Security.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\Mono.Security.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\Mono.Security.dll
+          projectPath: scene02Build_Data\Managed\Mono.Security.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\mscorlib.dll
+        label: mscorlib.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\mscorlib.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\mscorlib.dll
+          projectPath: scene02Build_Data\Managed\mscorlib.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\System.Core.dll
+        label: System.Core.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\System.Core.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\System.Core.dll
+          projectPath: scene02Build_Data\Managed\System.Core.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\System.dll
+        label: System.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\System.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\System.dll
+          projectPath: scene02Build_Data\Managed\System.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.AccessibilityModule.dll
+        label: UnityEngine.AccessibilityModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.AccessibilityModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.AccessibilityModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.AccessibilityModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.AccessibilityModule.xml
+        label: UnityEngine.AccessibilityModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.AccessibilityModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.AccessibilityModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.AccessibilityModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.AIModule.dll
+        label: UnityEngine.AIModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.AIModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.AIModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.AIModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.AIModule.xml
+        label: UnityEngine.AIModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.AIModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.AIModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.AIModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.AnimationModule.dll
+        label: UnityEngine.AnimationModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.AnimationModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.AnimationModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.AnimationModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.AnimationModule.xml
+        label: UnityEngine.AnimationModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.AnimationModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.AnimationModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.AnimationModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.ARModule.dll
+        label: UnityEngine.ARModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.ARModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ARModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.ARModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.ARModule.xml
+        label: UnityEngine.ARModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.ARModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ARModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.ARModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.AssetBundleModule.dll
+        label: UnityEngine.AssetBundleModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.AssetBundleModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.AssetBundleModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.AssetBundleModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.AssetBundleModule.xml
+        label: UnityEngine.AssetBundleModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.AssetBundleModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.AssetBundleModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.AssetBundleModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.AudioModule.dll
+        label: UnityEngine.AudioModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.AudioModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.AudioModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.AudioModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.AudioModule.xml
+        label: UnityEngine.AudioModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.AudioModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.AudioModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.AudioModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.ClothModule.dll
+        label: UnityEngine.ClothModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.ClothModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ClothModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.ClothModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.ClothModule.xml
+        label: UnityEngine.ClothModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.ClothModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ClothModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.ClothModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.ClusterInputModule.dll
+        label: UnityEngine.ClusterInputModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.ClusterInputModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ClusterInputModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.ClusterInputModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.ClusterInputModule.xml
+        label: UnityEngine.ClusterInputModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.ClusterInputModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ClusterInputModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.ClusterInputModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.ClusterRendererModule.dll
+        label: UnityEngine.ClusterRendererModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.ClusterRendererModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ClusterRendererModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.ClusterRendererModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.ClusterRendererModule.xml
+        label: UnityEngine.ClusterRendererModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.ClusterRendererModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ClusterRendererModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.ClusterRendererModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.CoreModule.dll
+        label: UnityEngine.CoreModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.CoreModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.CoreModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.CoreModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.CoreModule.xml
+        label: UnityEngine.CoreModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.CoreModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.CoreModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.CoreModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.CrashReportingModule.dll
+        label: UnityEngine.CrashReportingModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.CrashReportingModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.CrashReportingModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.CrashReportingModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.CrashReportingModule.xml
+        label: UnityEngine.CrashReportingModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.CrashReportingModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.CrashReportingModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.CrashReportingModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.DirectorModule.dll
+        label: UnityEngine.DirectorModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.DirectorModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.DirectorModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.DirectorModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.DirectorModule.xml
+        label: UnityEngine.DirectorModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.DirectorModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.DirectorModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.DirectorModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.dll
+        label: UnityEngine.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.GameCenterModule.dll
+        label: UnityEngine.GameCenterModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.GameCenterModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.GameCenterModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.GameCenterModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.GameCenterModule.xml
+        label: UnityEngine.GameCenterModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.GameCenterModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.GameCenterModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.GameCenterModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.GridModule.dll
+        label: UnityEngine.GridModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.GridModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.GridModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.GridModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.GridModule.xml
+        label: UnityEngine.GridModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.GridModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.GridModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.GridModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.ImageConversionModule.dll
+        label: UnityEngine.ImageConversionModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.ImageConversionModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ImageConversionModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.ImageConversionModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.ImageConversionModule.xml
+        label: UnityEngine.ImageConversionModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.ImageConversionModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ImageConversionModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.ImageConversionModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.IMGUIModule.dll
+        label: UnityEngine.IMGUIModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.IMGUIModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.IMGUIModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.IMGUIModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.IMGUIModule.xml
+        label: UnityEngine.IMGUIModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.IMGUIModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.IMGUIModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.IMGUIModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.InputModule.dll
+        label: UnityEngine.InputModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.InputModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.InputModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.InputModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.InputModule.xml
+        label: UnityEngine.InputModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.InputModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.InputModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.InputModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.JSONSerializeModule.dll
+        label: UnityEngine.JSONSerializeModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.JSONSerializeModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.JSONSerializeModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.JSONSerializeModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.JSONSerializeModule.xml
+        label: UnityEngine.JSONSerializeModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.JSONSerializeModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.JSONSerializeModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.JSONSerializeModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.Networking.dll
+        label: UnityEngine.Networking.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.Networking.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.Networking.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.Networking.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.ParticlesLegacyModule.dll
+        label: UnityEngine.ParticlesLegacyModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.ParticlesLegacyModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ParticlesLegacyModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.ParticlesLegacyModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.ParticlesLegacyModule.xml
+        label: UnityEngine.ParticlesLegacyModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.ParticlesLegacyModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ParticlesLegacyModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.ParticlesLegacyModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.ParticleSystemModule.dll
+        label: UnityEngine.ParticleSystemModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.ParticleSystemModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ParticleSystemModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.ParticleSystemModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.ParticleSystemModule.xml
+        label: UnityEngine.ParticleSystemModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.ParticleSystemModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ParticleSystemModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.ParticleSystemModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+        label: UnityEngine.PerformanceReportingModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+        label: UnityEngine.PerformanceReportingModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.Physics2DModule.dll
+        label: UnityEngine.Physics2DModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.Physics2DModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.Physics2DModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.Physics2DModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.Physics2DModule.xml
+        label: UnityEngine.Physics2DModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.Physics2DModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.Physics2DModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.Physics2DModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.PhysicsModule.dll
+        label: UnityEngine.PhysicsModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.PhysicsModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.PhysicsModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.PhysicsModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.PhysicsModule.xml
+        label: UnityEngine.PhysicsModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.PhysicsModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.PhysicsModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.PhysicsModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+        label: UnityEngine.ScreenCaptureModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+        label: UnityEngine.ScreenCaptureModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.SharedInternalsModule.dll
+        label: UnityEngine.SharedInternalsModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.SharedInternalsModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.SharedInternalsModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.SharedInternalsModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.SharedInternalsModule.xml
+        label: UnityEngine.SharedInternalsModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.SharedInternalsModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.SharedInternalsModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.SharedInternalsModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.SpatialTracking.dll
+        label: UnityEngine.SpatialTracking.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.SpatialTracking.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.SpatialTracking.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.SpatialTracking.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.SpriteMaskModule.dll
+        label: UnityEngine.SpriteMaskModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.SpriteMaskModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.SpriteMaskModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.SpriteMaskModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.SpriteMaskModule.xml
+        label: UnityEngine.SpriteMaskModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.SpriteMaskModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.SpriteMaskModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.SpriteMaskModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.SpriteShapeModule.dll
+        label: UnityEngine.SpriteShapeModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.SpriteShapeModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.SpriteShapeModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.SpriteShapeModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.SpriteShapeModule.xml
+        label: UnityEngine.SpriteShapeModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.SpriteShapeModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.SpriteShapeModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.SpriteShapeModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.StandardEvents.dll
+        label: UnityEngine.StandardEvents.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.StandardEvents.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.StandardEvents.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.StandardEvents.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.StyleSheetsModule.dll
+        label: UnityEngine.StyleSheetsModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.StyleSheetsModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.StyleSheetsModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.StyleSheetsModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.StyleSheetsModule.xml
+        label: UnityEngine.StyleSheetsModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.StyleSheetsModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.StyleSheetsModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.StyleSheetsModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.TerrainModule.dll
+        label: UnityEngine.TerrainModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.TerrainModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.TerrainModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.TerrainModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.TerrainModule.xml
+        label: UnityEngine.TerrainModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.TerrainModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.TerrainModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.TerrainModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+        label: UnityEngine.TerrainPhysicsModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+        label: UnityEngine.TerrainPhysicsModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.TextRenderingModule.dll
+        label: UnityEngine.TextRenderingModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.TextRenderingModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.TextRenderingModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.TextRenderingModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.TextRenderingModule.xml
+        label: UnityEngine.TextRenderingModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.TextRenderingModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.TextRenderingModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.TextRenderingModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.TilemapModule.dll
+        label: UnityEngine.TilemapModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.TilemapModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.TilemapModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.TilemapModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.TilemapModule.xml
+        label: UnityEngine.TilemapModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.TilemapModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.TilemapModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.TilemapModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.Timeline.dll
+        label: UnityEngine.Timeline.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.Timeline.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.Timeline.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.Timeline.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.UI.dll
+        label: UnityEngine.UI.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.UI.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UI.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.UI.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.UIElementsModule.dll
+        label: UnityEngine.UIElementsModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.UIElementsModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UIElementsModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.UIElementsModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.UIElementsModule.xml
+        label: UnityEngine.UIElementsModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.UIElementsModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UIElementsModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.UIElementsModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.UIModule.dll
+        label: UnityEngine.UIModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.UIModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UIModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.UIModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.UIModule.xml
+        label: UnityEngine.UIModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.UIModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UIModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.UIModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.UNETModule.dll
+        label: UnityEngine.UNETModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.UNETModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UNETModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.UNETModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.UNETModule.xml
+        label: UnityEngine.UNETModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.UNETModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UNETModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.UNETModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+        label: UnityEngine.UnityAnalyticsModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+        label: UnityEngine.UnityAnalyticsModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.UnityConnectModule.dll
+        label: UnityEngine.UnityConnectModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.UnityConnectModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UnityConnectModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.UnityConnectModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.UnityConnectModule.xml
+        label: UnityEngine.UnityConnectModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.UnityConnectModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UnityConnectModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.UnityConnectModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+        label: UnityEngine.UnityWebRequestAudioModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+        label: UnityEngine.UnityWebRequestAudioModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+        label: UnityEngine.UnityWebRequestModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+        label: UnityEngine.UnityWebRequestModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+        label: UnityEngine.UnityWebRequestTextureModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+        label: UnityEngine.UnityWebRequestTextureModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+        label: UnityEngine.UnityWebRequestWWWModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+        label: UnityEngine.UnityWebRequestWWWModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.VehiclesModule.dll
+        label: UnityEngine.VehiclesModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.VehiclesModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.VehiclesModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.VehiclesModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.VehiclesModule.xml
+        label: UnityEngine.VehiclesModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.VehiclesModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.VehiclesModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.VehiclesModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.VideoModule.dll
+        label: UnityEngine.VideoModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.VideoModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.VideoModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.VideoModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.VideoModule.xml
+        label: UnityEngine.VideoModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.VideoModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.VideoModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.VideoModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.VRModule.dll
+        label: UnityEngine.VRModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.VRModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.VRModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.VRModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.VRModule.xml
+        label: UnityEngine.VRModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.VRModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.VRModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.VRModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.WebModule.dll
+        label: UnityEngine.WebModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.WebModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.WebModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.WebModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.WebModule.xml
+        label: UnityEngine.WebModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.WebModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.WebModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.WebModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.WindModule.dll
+        label: UnityEngine.WindModule.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.WindModule.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.WindModule.dll
+          projectPath: scene02Build_Data\Managed\UnityEngine.WindModule.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Managed\UnityEngine.WindModule.xml
+        label: UnityEngine.WindModule.xml
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Managed\UnityEngine.WindModule.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.WindModule.xml
+          projectPath: scene02Build_Data\Managed\UnityEngine.WindModule.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Mono
+        label: Mono
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: scene02Build_Data\Mono\EmbedRuntime
+        label: EmbedRuntime
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: scene02Build_Data\Mono\EmbedRuntime\mono.dll
+        label: mono.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Mono\EmbedRuntime\mono.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Mono\EmbedRuntime\mono.dll
+          projectPath: scene02Build_Data\Mono\EmbedRuntime\mono.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Mono\EmbedRuntime\MonoPosixHelper.dll
+        label: MonoPosixHelper.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Mono\EmbedRuntime\MonoPosixHelper.dll
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Mono\EmbedRuntime\MonoPosixHelper.dll
+          projectPath: scene02Build_Data\Mono\EmbedRuntime\MonoPosixHelper.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Mono\etc
+        label: etc
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: scene02Build_Data\Mono\etc\mono
+        label: mono
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: scene02Build_Data\Mono\etc\mono\1.0
+        label: 1.0
+        level: 4
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: scene02Build_Data\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx
+        label: DefaultWsdlHelpGenerator.aspx
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx
+          projectPath: scene02Build_Data\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Mono\etc\mono\1.0\machine.config
+        label: machine.config
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Mono\etc\mono\1.0\machine.config
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Mono\etc\mono\1.0\machine.config
+          projectPath: scene02Build_Data\Mono\etc\mono\1.0\machine.config
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Mono\etc\mono\2.0
+        label: 2.0
+        level: 4
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: scene02Build_Data\Mono\etc\mono\2.0\Browsers
+        label: Browsers
+        level: 5
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: scene02Build_Data\Mono\etc\mono\2.0\Browsers\Compat.browser
+        label: Compat.browser
+        level: 6
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Mono\etc\mono\2.0\Browsers\Compat.browser
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Mono\etc\mono\2.0\Browsers\Compat.browser
+          projectPath: scene02Build_Data\Mono\etc\mono\2.0\Browsers\Compat.browser
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+        label: DefaultWsdlHelpGenerator.aspx
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+          projectPath: scene02Build_Data\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Mono\etc\mono\2.0\machine.config
+        label: machine.config
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Mono\etc\mono\2.0\machine.config
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Mono\etc\mono\2.0\machine.config
+          projectPath: scene02Build_Data\Mono\etc\mono\2.0\machine.config
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Mono\etc\mono\2.0\settings.map
+        label: settings.map
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Mono\etc\mono\2.0\settings.map
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Mono\etc\mono\2.0\settings.map
+          projectPath: scene02Build_Data\Mono\etc\mono\2.0\settings.map
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Mono\etc\mono\2.0\web.config
+        label: web.config
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Mono\etc\mono\2.0\web.config
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Mono\etc\mono\2.0\web.config
+          projectPath: scene02Build_Data\Mono\etc\mono\2.0\web.config
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Mono\etc\mono\browscap.ini
+        label: browscap.ini
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Mono\etc\mono\browscap.ini
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Mono\etc\mono\browscap.ini
+          projectPath: scene02Build_Data\Mono\etc\mono\browscap.ini
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Mono\etc\mono\config
+        label: config
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Mono\etc\mono\config
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Mono\etc\mono\config
+          projectPath: scene02Build_Data\Mono\etc\mono\config
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Mono\etc\mono\mconfig
+        label: mconfig
+        level: 4
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: scene02Build_Data\Mono\etc\mono\mconfig\config.xml
+        label: config.xml
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Mono\etc\mono\mconfig\config.xml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Mono\etc\mono\mconfig\config.xml
+          projectPath: scene02Build_Data\Mono\etc\mono\mconfig\config.xml
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Resources
+        label: Resources
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: scene02Build_Data\Resources\unity default resources
+        label: unity default resources
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Resources\unity default resources
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Resources\unity
+            default resources
+          projectPath: scene02Build_Data\Resources\unity default resources
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\Resources\unity_builtin_extra
+        label: unity_builtin_extra
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\Resources\unity_builtin_extra
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Resources\unity_builtin_extra
+          projectPath: scene02Build_Data\Resources\unity_builtin_extra
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: scene02Build_Data\sharedassets0.assets
+        label: sharedassets0.assets
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: scene02Build_Data\sharedassets0.assets
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\sharedassets0.assets
+          projectPath: scene02Build_Data\sharedassets0.assets
+          originalPath: 
+          status: 1
           staged: 0
       selectedNode:
         path: 
@@ -1439,42 +4132,24 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    - path: .vs\Car Simulation\v15\Server\sqlite3\storage.ide
-      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\.vs\Car Simulation\v15\Server\sqlite3\storage.ide
-      projectPath: .vs\Car Simulation\v15\Server\sqlite3\storage.ide
-      originalPath: 
-      status: 3
-      staged: 0
     - path: Assets\Car\Easy Suspension\CameraHelper.cs
       fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Car\Easy
         Suspension\CameraHelper.cs
       projectPath: Assets\Car\Easy Suspension\CameraHelper.cs
       originalPath: 
-      status: 1
+      status: 5
       staged: 0
     - path: Assets\Car\Easy Suspension\CameraHelper.cs.meta
       fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Car\Easy
         Suspension\CameraHelper.cs.meta
       projectPath: Assets\Car\Easy Suspension\CameraHelper.cs.meta
       originalPath: 
-      status: 1
+      status: 5
       staged: 0
     - path: Assets\Car\Easy Suspension\RearWheelDrive.cs
       fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Car\Easy
         Suspension\RearWheelDrive.cs
       projectPath: Assets\Car\Easy Suspension\RearWheelDrive.cs
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Assets\Environment\initialbase.ma
-      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\initialbase.ma
-      projectPath: Assets\Environment\initialbase.ma
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Assets\Environment\initialbase.ma.meta
-      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\initialbase.ma.meta
-      projectPath: Assets\Environment\initialbase.ma.meta
       originalPath: 
       status: 3
       staged: 0
@@ -1496,15 +4171,15 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    - path: Library\CurrentLayout.dwlt
-      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\CurrentLayout.dwlt
-      projectPath: Library\CurrentLayout.dwlt
+    - path: Library\EditorUserBuildSettings.asset
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\EditorUserBuildSettings.asset
+      projectPath: Library\EditorUserBuildSettings.asset
       originalPath: 
       status: 3
       staged: 0
-    - path: Library\InspectorExpandedItems.asset
-      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\InspectorExpandedItems.asset
-      projectPath: Library\InspectorExpandedItems.asset
+    - path: Library\metadata\00\00000000000000004000000000000000
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\metadata\00\00000000000000004000000000000000
+      projectPath: Library\metadata\00\00000000000000004000000000000000
       originalPath: 
       status: 3
       staged: 0
@@ -1520,21 +4195,802 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\shadercompiler-UnityShaderCompiler.exe0.log
-      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    - path: scene01Build_Data\globalgamemanagers
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene01Build_Data\globalgamemanagers
+      projectPath: scene01Build_Data\globalgamemanagers
       originalPath: 
       status: 3
       staged: 0
-    changedFilesText: 15 changed files
+    - path: scene01Build_Data\globalgamemanagers.assets
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene01Build_Data\globalgamemanagers.assets
+      projectPath: scene01Build_Data\globalgamemanagers.assets
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: scene01Build_Data\level0
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene01Build_Data\level0
+      projectPath: scene01Build_Data\level0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: scene01Build_Data\Managed\Assembly-CSharp.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene01Build_Data\Managed\Assembly-CSharp.dll
+      projectPath: scene01Build_Data\Managed\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: scene01Build_Data\sharedassets0.assets
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene01Build_Data\sharedassets0.assets
+      projectPath: scene01Build_Data\sharedassets0.assets
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: scene01Build_Data\sharedassets0.assets.resS
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene01Build_Data\sharedassets0.assets.resS
+      projectPath: scene01Build_Data\sharedassets0.assets.resS
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: scene02Build.exe
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build.exe
+      projectPath: scene02Build.exe
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\app.info
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\app.info
+      projectPath: scene02Build_Data\app.info
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\boot.config
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\boot.config
+      projectPath: scene02Build_Data\boot.config
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\globalgamemanagers
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\globalgamemanagers
+      projectPath: scene02Build_Data\globalgamemanagers
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\globalgamemanagers.assets
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\globalgamemanagers.assets
+      projectPath: scene02Build_Data\globalgamemanagers.assets
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\level0
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\level0
+      projectPath: scene02Build_Data\level0
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\level0.resS
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\level0.resS
+      projectPath: scene02Build_Data\level0.resS
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\Assembly-CSharp.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\Assembly-CSharp.dll
+      projectPath: scene02Build_Data\Managed\Assembly-CSharp.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\Mono.Security.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\Mono.Security.dll
+      projectPath: scene02Build_Data\Managed\Mono.Security.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\mscorlib.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\mscorlib.dll
+      projectPath: scene02Build_Data\Managed\mscorlib.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\System.Core.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\System.Core.dll
+      projectPath: scene02Build_Data\Managed\System.Core.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\System.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\System.dll
+      projectPath: scene02Build_Data\Managed\System.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.AccessibilityModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.AccessibilityModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.AccessibilityModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.AccessibilityModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.AccessibilityModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.AccessibilityModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.AIModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.AIModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.AIModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.AIModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.AIModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.AIModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.AnimationModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.AnimationModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.AnimationModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.AnimationModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.AnimationModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.AnimationModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.ARModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ARModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.ARModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.ARModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ARModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.ARModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.AssetBundleModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.AssetBundleModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.AssetBundleModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.AssetBundleModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.AssetBundleModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.AssetBundleModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.AudioModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.AudioModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.AudioModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.AudioModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.AudioModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.AudioModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.ClothModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ClothModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.ClothModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.ClothModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ClothModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.ClothModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.ClusterInputModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ClusterInputModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.ClusterInputModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.ClusterInputModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ClusterInputModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.ClusterInputModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.ClusterRendererModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ClusterRendererModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.ClusterRendererModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.CoreModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.CoreModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.CoreModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.CoreModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.CoreModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.CoreModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.CrashReportingModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.CrashReportingModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.CrashReportingModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.CrashReportingModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.CrashReportingModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.CrashReportingModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.DirectorModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.DirectorModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.DirectorModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.DirectorModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.DirectorModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.DirectorModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.GameCenterModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.GameCenterModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.GameCenterModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.GameCenterModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.GameCenterModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.GameCenterModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.GridModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.GridModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.GridModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.GridModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.GridModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.GridModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.ImageConversionModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ImageConversionModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.ImageConversionModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.ImageConversionModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ImageConversionModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.ImageConversionModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.IMGUIModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.IMGUIModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.IMGUIModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.IMGUIModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.IMGUIModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.IMGUIModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.InputModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.InputModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.InputModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.InputModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.InputModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.InputModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.JSONSerializeModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.JSONSerializeModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.JSONSerializeModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.Networking.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.Networking.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.Networking.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.ParticlesLegacyModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ParticlesLegacyModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.ParticlesLegacyModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.ParticlesLegacyModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ParticlesLegacyModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.ParticlesLegacyModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.ParticleSystemModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ParticleSystemModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.ParticleSystemModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.Physics2DModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.Physics2DModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.Physics2DModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.Physics2DModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.Physics2DModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.Physics2DModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.PhysicsModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.PhysicsModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.PhysicsModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.PhysicsModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.PhysicsModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.PhysicsModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.SharedInternalsModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.SharedInternalsModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.SharedInternalsModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.SpatialTracking.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.SpatialTracking.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.SpatialTracking.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.SpriteMaskModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.SpriteMaskModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.SpriteMaskModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.SpriteShapeModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.SpriteShapeModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.SpriteShapeModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.StandardEvents.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.StandardEvents.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.StandardEvents.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.StyleSheetsModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.StyleSheetsModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.StyleSheetsModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.TerrainModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.TerrainModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.TerrainModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.TerrainModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.TerrainModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.TerrainModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.TextRenderingModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.TextRenderingModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.TextRenderingModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.TextRenderingModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.TextRenderingModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.TextRenderingModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.TilemapModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.TilemapModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.TilemapModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.TilemapModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.TilemapModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.TilemapModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.Timeline.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.Timeline.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.Timeline.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.UI.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UI.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.UI.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.UIElementsModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UIElementsModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.UIElementsModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.UIElementsModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UIElementsModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.UIElementsModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.UIModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UIModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.UIModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.UIModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UIModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.UIModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.UNETModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UNETModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.UNETModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.UNETModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UNETModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.UNETModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.UnityConnectModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UnityConnectModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.UnityConnectModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.UnityConnectModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UnityConnectModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.UnityConnectModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.VehiclesModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.VehiclesModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.VehiclesModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.VehiclesModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.VehiclesModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.VehiclesModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.VideoModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.VideoModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.VideoModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.VideoModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.VideoModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.VideoModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.VRModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.VRModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.VRModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.VRModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.VRModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.VRModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.WebModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.WebModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.WebModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.WebModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.WebModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.WebModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.WindModule.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.WindModule.dll
+      projectPath: scene02Build_Data\Managed\UnityEngine.WindModule.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Managed\UnityEngine.WindModule.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Managed\UnityEngine.WindModule.xml
+      projectPath: scene02Build_Data\Managed\UnityEngine.WindModule.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Mono\EmbedRuntime\mono.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Mono\EmbedRuntime\mono.dll
+      projectPath: scene02Build_Data\Mono\EmbedRuntime\mono.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Mono\EmbedRuntime\MonoPosixHelper.dll
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Mono\EmbedRuntime\MonoPosixHelper.dll
+      projectPath: scene02Build_Data\Mono\EmbedRuntime\MonoPosixHelper.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx
+      projectPath: scene02Build_Data\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Mono\etc\mono\1.0\machine.config
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Mono\etc\mono\1.0\machine.config
+      projectPath: scene02Build_Data\Mono\etc\mono\1.0\machine.config
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Mono\etc\mono\2.0\Browsers\Compat.browser
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Mono\etc\mono\2.0\Browsers\Compat.browser
+      projectPath: scene02Build_Data\Mono\etc\mono\2.0\Browsers\Compat.browser
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      projectPath: scene02Build_Data\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Mono\etc\mono\2.0\machine.config
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Mono\etc\mono\2.0\machine.config
+      projectPath: scene02Build_Data\Mono\etc\mono\2.0\machine.config
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Mono\etc\mono\2.0\settings.map
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Mono\etc\mono\2.0\settings.map
+      projectPath: scene02Build_Data\Mono\etc\mono\2.0\settings.map
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Mono\etc\mono\2.0\web.config
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Mono\etc\mono\2.0\web.config
+      projectPath: scene02Build_Data\Mono\etc\mono\2.0\web.config
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Mono\etc\mono\browscap.ini
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Mono\etc\mono\browscap.ini
+      projectPath: scene02Build_Data\Mono\etc\mono\browscap.ini
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Mono\etc\mono\config
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Mono\etc\mono\config
+      projectPath: scene02Build_Data\Mono\etc\mono\config
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Mono\etc\mono\mconfig\config.xml
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Mono\etc\mono\mconfig\config.xml
+      projectPath: scene02Build_Data\Mono\etc\mono\mconfig\config.xml
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Resources\unity default resources
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Resources\unity
+        default resources
+      projectPath: scene02Build_Data\Resources\unity default resources
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\Resources\unity_builtin_extra
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\Resources\unity_builtin_extra
+      projectPath: scene02Build_Data\Resources\unity_builtin_extra
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: scene02Build_Data\sharedassets0.assets
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene02Build_Data\sharedassets0.assets
+      projectPath: scene02Build_Data\sharedassets0.assets
+      originalPath: 
+      status: 1
+      staged: 0
+    changedFilesText: 142 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2018-10-24T18:08:47.557+05:30
+      updatedTimeString: 2018-10-24T19:45:11.948+05:30
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-10-24T18:36:20.242+05:30
+      updatedTimeString: 2018-10-24T20:02:04.531+05:30
       cacheType: 5
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2018-10-24T20:01:24.909+05:30
       cacheType: 6
   historyView:
     currentLogHasUpdate: 0
@@ -23228,13 +26684,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the master remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2018-10-24T18:08:47.557+05:30
+    updatedTimeString: 2018-10-24T19:45:11.948+05:30
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2018-10-24T18:08:47.601+05:30
+    updatedTimeString: 2018-10-24T19:45:11.977+05:30
     cacheType: 4
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2018-10-24T18:08:48.538+05:30
+    updatedTimeString: 2018-10-24T20:02:04.531+05:30
     cacheType: 5
   pullButtonContent:
     m_Text: Pull
@@ -23366,7 +26822,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 592
-    width: 1229
+    width: 1257
     height: 250
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -23381,19 +26837,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Environment
+    - Assets/Car/Easy Suspension
   m_ViewMode: 1
   m_StartGridSize: 35
   m_LastFolders:
-  - Assets/Environment
+  - Assets/Car/Easy Suspension
   m_LastFoldersGridSize: 35
   m_LastProjectPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 71}
-    m_SelectedIDs: 32280000
-    m_LastClickedID: 10290
-    m_ExpandedIDs: 00000000e42700004c280000462900007629000078290000ce290000d0290000e8290000142e000080540000825400008454000000ca9a3bffffff7f
+    m_SelectedIDs: 422d0000
+    m_LastClickedID: 11586
+    m_ExpandedIDs: 00000000e8270000522800006e2800009e280000a0280000f6280000f828000010290000422d0000685400006a5400006c54000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -23421,7 +26877,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e42700004c280000462900007629000078290000ce290000d0290000e8290000142e0000805400008254000084540000
+    m_ExpandedIDs: 00000000e8270000522800006e2800009e280000a0280000f6280000f828000010290000422d0000685400006a5400006c540000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -23448,22 +26904,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000000000005a32000098ccfcff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: CameraHelper
+      m_OriginalName: CameraHelper
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 2080
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 2}
     m_CreateAssetUtility:
@@ -23498,9 +26954,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1233
+    x: 1261
     y: 92
-    width: 303
+    width: 275
     height: 750
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ScrollPosition: {x: 0, y: 0}
@@ -23534,14 +26990,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 92
-    width: 259
+    width: 205
     height: 479
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: 62b6fcff
-    m_LastClickedID: -215454
-    m_ExpandedIDs: b6b4fcffe0b5fcff6eb6fcff70b6fcff108bffff868bffff5c90ffff5e90ffff46d4ffff24d5ffff34d5ffff7ed6ffff96d6ffffaed6ffffcad6ffffced6fffffcd6ffff14d7ffff9efbffff00000000622e0000ea2e00004e2f00002e300000be300000f2310000fe310000b2330000ae370000ca370000da380000fa390000d43b000000410000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 065e0400
+    m_LastClickedID: 286214
+    m_ExpandedIDs: f003f8ff0405f8ff2806f8ff780ef8ff400ff8ff6410f8ff2eedf9ffa8edf9ff7c81faffd681faff1682faff8ab5faffceb5faffdeb5faffa809fdffdc09fdffea09fdfff409fdff040afdff460afdff560afdff5c0afdff620afdff700afdff760afdff7c0afdff820afdff9c0afdffa00afdffcc0afdffda0afdffea0afdfff60afdff080bfdff2a0bfdff2c0bfdffdac4fffff8c4ffff04c5ffff3ac5ffff94fbffff000000007c2e000020310000d2350000203a0000023b0000b23f000034680400
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -23586,20 +27042,20 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 263
+    x: 209
     y: 92
-    width: 966
+    width: 1048
     height: 479
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 1785.4025744240848
+  lastFramingTime: 3279.792467406248
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 81.67124, y: 121.57378, z: -544.74963}
+    m_Target: {x: 60.70971, y: -14.041775, z: -57.368866}
     speed: 2
-    m_Value: {x: 81.67124, y: 121.57378, z: -544.74963}
+    m_Value: {x: 60.70971, y: -14.041775, z: -57.368866}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -23623,19 +27079,19 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.23903957, y: -0.27952346, z: 0.07203533, w: -0.9271746}
+    m_Target: {x: 0.2675273, y: 0.08196707, z: -0.022578184, w: 0.9597921}
     speed: 2
-    m_Value: {x: -0.2390258, y: -0.27950737, z: 0.07203118, w: -0.9271212}
+    m_Value: {x: 0.2675273, y: 0.08196707, z: -0.022578184, w: 0.9597921}
   m_Size:
-    m_Target: 5.1452346
+    m_Target: 129.82162
     speed: 2
-    m_Value: 5.1452346
+    m_Value: 129.82162
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.09344481, y: 0.77722704, z: -0.118902534, w: -0.6107769}
+  m_LastSceneViewRotation: {x: 0.2675273, y: 0.08196707, z: -0.022578184, w: 0.9597921}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -23663,9 +27119,9 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 263
+    x: 209
     y: 92
-    width: 966
+    width: 1048
     height: 479
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
@@ -23676,8 +27132,8 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -483
-    m_HBaseRangeMax: 483
+    m_HBaseRangeMin: -524
+    m_HBaseRangeMax: 524
     m_VBaseRangeMin: -231
     m_VBaseRangeMax: 231
     m_HAllowExceedBaseRangeMin: 1
@@ -23696,25 +27152,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 966
+      width: 1048
       height: 462
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 483, y: 231}
+    m_Translation: {x: 524, y: 231}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -483
+      x: -524
       y: -231
-      width: 966
+      width: 1048
       height: 462
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 966, y: 479}
+  m_LastWindowPixelSize: {x: 1048, y: 479}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -23742,6 +27198,6 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 592
-    width: 1229
+    width: 1257
     height: 250
   m_PersistentViewDataDictionary: {fileID: 0}

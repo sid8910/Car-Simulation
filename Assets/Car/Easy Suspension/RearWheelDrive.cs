@@ -67,7 +67,7 @@ public class RearWheelDrive : MonoBehaviour {
 				shapeTransform.rotation = q;
 			}
 		}
-        string img = Convert.ToBase64String(CameraHelper.CaptureFrame(FrontFacingCamera));
-        Debug.Log("Image " + img);
+        //string img = Convert.ToBase64String(CameraHelper.CaptureFrame(FrontFacingCamera));
+        //Debug.Log("Image " + img);
     }
 }
