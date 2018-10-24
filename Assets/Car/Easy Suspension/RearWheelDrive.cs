@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class RearWheelDrive : MonoBehaviour {
 
@@ -8,10 +9,13 @@ public class RearWheelDrive : MonoBehaviour {
 	public float maxAngle = 45;
 	public float maxTorque = 300;
 	public GameObject wheelShape;
+    public Camera FrontFacingCamera;
 
 	// here we find all the WheelColliders down in the hierarchy
 	public void Start()
 	{
+        FrontFacingCamera = GetComponent<Camera>();
+
 		wheels = GetComponentsInChildren<WheelCollider>();
 
 		for (int i = 0; i < wheels.Length; ++i) 
@@ -62,7 +66,8 @@ public class RearWheelDrive : MonoBehaviour {
 				shapeTransform.position = p;
 				shapeTransform.rotation = q;
 			}
-
 		}
-	}
+        string img = Convert.ToBase64String(CameraHelper.CaptureFrame(FrontFacingCamera));
+        Debug.Log("Image " + img);
+    }
 }
