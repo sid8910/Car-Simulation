@@ -66,8 +66,8 @@ MonoBehaviour:
     y: 0
     width: 207
     height: 500
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -96,7 +96,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 11
+  controlID: 28
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 508, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 9
+  controlID: 26
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,8 +139,8 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 771
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 17}
@@ -170,7 +170,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 821
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &8
 MonoBehaviour:
@@ -236,7 +236,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 10
+  controlID: 27
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -255,8 +255,8 @@ MonoBehaviour:
     y: 0
     width: 1052
     height: 500
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -492,8 +492,10 @@ MonoBehaviour:
       assets:
         keys:
         - 00000000000000001000000000000000
-        - d2d3c983bd5199b4a9f8c3e18a9aff6b
-        - e3fb53201d95b8140bc9684fd0853c58
+        - e4570831dff7af544af14d962e524990
+        - dc3807c32f474a14587915aa436fc070
+        - db6460d0358257b4fa769f4a5e586777
+        - 625415f7f9b328c42b5546ab768efa19
         values:
         - path: Assets
           label: Assets
@@ -513,8 +515,8 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
-        - path: Assets\Scene
-          label: Scene
+        - path: Assets\Environment
+          label: Environment
           level: 1
           isFolder: 1
           isContainer: 0
@@ -531,11 +533,11 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
-        - path: Assets\Scene\scene01.unity
-          label: scene01.unity
+        - path: Assets\Environment\city_base.ma
+          label: city_base.ma
           level: 2
           isFolder: 0
-          isContainer: 0
+          isContainer: 1
           isCollapsed: 0
           isHidden: 0
           isActive: 0
@@ -543,16 +545,52 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\Scene\scene01.unity
-            fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Scene\scene01.unity
-            projectPath: Assets\Scene\scene01.unity
+            path: Assets\Environment\city_base.ma
+            fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\city_base.ma
+            projectPath: Assets\Environment\city_base.ma
             originalPath: 
-            status: 3
+            status: 1
+            staged: 0
+        - path: Assets\Environment\curved_lane.ma
+          label: curved_lane.ma
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Environment\curved_lane.ma
+            fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\curved_lane.ma
+            projectPath: Assets\Environment\curved_lane.ma
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: Assets\Environment\straight_lane.ma
+          label: straight_lane.ma
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Environment\straight_lane.ma
+            fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\straight_lane.ma
+            projectPath: Assets\Environment\straight_lane.ma
+            originalPath: 
+            status: 1
             staged: 0
       folders:
         keys:
         - Assets
-        - Assets\Scene
+        - Assets\Environment
         - Library
         - Library\metadata
         - Library\metadata\00
@@ -575,8 +613,8 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
-        - path: Assets\Scene
-          label: Scene
+        - path: Assets\Environment
+          label: Environment
           level: 1
           isFolder: 1
           isContainer: 0
@@ -693,8 +731,8 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: Assets\Scene
-        label: Scene
+      - path: Assets\Environment
+        label: Environment
         level: 1
         isFolder: 1
         isContainer: 0
@@ -711,9 +749,27 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: Assets\Scene\scene01.unity
-        label: scene01.unity
+      - path: Assets\Environment\city_base.ma
+        label: city_base.ma
         level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Environment\city_base.ma
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\city_base.ma
+          projectPath: Assets\Environment\city_base.ma
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Environment\city_base.ma.meta
+        label: city_base.ma.meta
+        level: 3
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -723,11 +779,83 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scene\scene01.unity
-          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Scene\scene01.unity
-          projectPath: Assets\Scene\scene01.unity
+          path: Assets\Environment\city_base.ma.meta
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\city_base.ma.meta
+          projectPath: Assets\Environment\city_base.ma.meta
           originalPath: 
-          status: 3
+          status: 1
+          staged: 0
+      - path: Assets\Environment\curved_lane.ma
+        label: curved_lane.ma
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Environment\curved_lane.ma
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\curved_lane.ma
+          projectPath: Assets\Environment\curved_lane.ma
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Environment\curved_lane.ma.meta
+        label: curved_lane.ma.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Environment\curved_lane.ma.meta
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\curved_lane.ma.meta
+          projectPath: Assets\Environment\curved_lane.ma.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Environment\straight_lane.ma
+        label: straight_lane.ma
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Environment\straight_lane.ma
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\straight_lane.ma
+          projectPath: Assets\Environment\straight_lane.ma
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Environment\straight_lane.ma.meta
+        label: straight_lane.ma.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Environment\straight_lane.ma.meta
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\straight_lane.ma.meta
+          projectPath: Assets\Environment\straight_lane.ma.meta
+          originalPath: 
+          status: 1
           staged: 0
       - path: Library
         label: Library
@@ -762,6 +890,24 @@ MonoBehaviour:
           path: Library\assetDatabase3
           fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\assetDatabase3
           projectPath: Library\assetDatabase3
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\CurrentLayout.dwlt
+        label: CurrentLayout.dwlt
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\CurrentLayout.dwlt
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\CurrentLayout.dwlt
+          projectPath: Library\CurrentLayout.dwlt
           originalPath: 
           status: 3
           staged: 0
@@ -819,6 +965,24 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        label: shadercompiler-UnityShaderCompiler.exe0.log
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\shadercompiler-UnityShaderCompiler.exe0.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          originalPath: 
+          status: 3
+          staged: 0
       selectedNode:
         path: 
         label: 
@@ -839,15 +1003,51 @@ MonoBehaviour:
           status: 0
           staged: 0
     gitStatusEntries:
-    - path: Assets\Scene\scene01.unity
-      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Scene\scene01.unity
-      projectPath: Assets\Scene\scene01.unity
+    - path: Assets\Environment\city_base.ma
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\city_base.ma
+      projectPath: Assets\Environment\city_base.ma
       originalPath: 
-      status: 3
+      status: 1
+      staged: 0
+    - path: Assets\Environment\city_base.ma.meta
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\city_base.ma.meta
+      projectPath: Assets\Environment\city_base.ma.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Environment\curved_lane.ma
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\curved_lane.ma
+      projectPath: Assets\Environment\curved_lane.ma
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Environment\curved_lane.ma.meta
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\curved_lane.ma.meta
+      projectPath: Assets\Environment\curved_lane.ma.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Environment\straight_lane.ma
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\straight_lane.ma
+      projectPath: Assets\Environment\straight_lane.ma
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Environment\straight_lane.ma.meta
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\straight_lane.ma.meta
+      projectPath: Assets\Environment\straight_lane.ma.meta
+      originalPath: 
+      status: 1
       staged: 0
     - path: Library\assetDatabase3
       fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\assetDatabase3
       projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
       originalPath: 
       status: 3
       staged: 0
@@ -857,15 +1057,21 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    changedFilesText: 3 changed files
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    changedFilesText: 10 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2018-10-25T00:10:31.128+05:30
+      updatedTimeString: 2018-12-22T22:14:38.613+05:30
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-10-25T00:15:38.325+05:30
+      updatedTimeString: 2018-12-22T22:17:19.837+05:30
       cacheType: 5
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2018-12-22T22:14:38.697+05:30
       cacheType: 6
   historyView:
     currentLogHasUpdate: 0
@@ -873,6 +1079,42 @@ MonoBehaviour:
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: 22f39cf34c4e31498b4ccfead9526b1718d031ca
+        mergeA: 
+        mergeB: 
+        authorName: DESKTOP-8PFDKFF\DELL
+        authorEmail: shubham.baghe8910@gmail.com
+        commitEmail: shubham.baghe8910@gmail.com
+        commitName: DESKTOP-8PFDKFF\DELL
+        summary: adding barrier
+        description: adding barrier
+        timeString: 2018-10-25T00:09:57.000+05:30
+        commitTimeString: 2018-10-25T00:09:57.000+05:30
+        changes:
+        - path: Assets\Environment\barrier.ma
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\barrier.ma
+          projectPath: Assets\Environment\barrier.ma
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Environment\barrier.ma.meta
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\barrier.ma.meta
+          projectPath: Assets\Environment\barrier.ma.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Library\assetDatabase3
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\assetDatabase3
+          projectPath: Library\assetDatabase3
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\gfu\cache\gituser.yaml
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\gfu\cache\gituser.yaml
+          projectPath: Library\gfu\cache\gituser.yaml
+          originalPath: 
+          status: 3
+          staged: 0
       - commitID: fa06182b0ca3d6cdce288e6bdc235d8b8677cc5c
         mergeA: 
         mergeB: 
@@ -11923,7 +12165,7 @@ MonoBehaviour:
           status: 4
           staged: 0
       statusAhead: 0
-      selectedIndex: 13
+      selectedIndex: 14
     selectedEntry:
       commitID: 60ae4707dcbeca75c19da20d91deaac146379de8
       mergeA: 
@@ -12407,6 +12649,42 @@ MonoBehaviour:
         staged: 0
     detailsScroll: {x: 0, y: 0}
     logEntries:
+    - commitID: 22f39cf34c4e31498b4ccfead9526b1718d031ca
+      mergeA: 
+      mergeB: 
+      authorName: DESKTOP-8PFDKFF\DELL
+      authorEmail: shubham.baghe8910@gmail.com
+      commitEmail: shubham.baghe8910@gmail.com
+      commitName: DESKTOP-8PFDKFF\DELL
+      summary: adding barrier
+      description: adding barrier
+      timeString: 2018-10-25T00:09:57.000+05:30
+      commitTimeString: 2018-10-25T00:09:57.000+05:30
+      changes:
+      - path: Assets\Environment\barrier.ma
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\barrier.ma
+        projectPath: Assets\Environment\barrier.ma
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Environment\barrier.ma.meta
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\barrier.ma.meta
+        projectPath: Assets\Environment\barrier.ma.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\assetDatabase3
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\assetDatabase3
+        projectPath: Library\assetDatabase3
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\gfu\cache\gituser.yaml
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\gfu\cache\gituser.yaml
+        projectPath: Library\gfu\cache\gituser.yaml
+        originalPath: 
+        status: 3
+        staged: 0
     - commitID: fa06182b0ca3d6cdce288e6bdc235d8b8677cc5c
       mergeA: 
       mergeB: 
@@ -26017,10 +26295,10 @@ MonoBehaviour:
           status: 0
           staged: 0
     lastLogChangedEvent:
-      updatedTimeString: 2018-10-24T23:46:29.986+05:30
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2018-10-25T00:02:13.259+05:30
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 4
   settingsView:
     gitPathView:
@@ -26151,13 +26429,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the master remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2018-10-25T00:10:31.128+05:30
+    updatedTimeString: 2018-12-22T22:14:38.613+05:30
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2018-10-25T00:15:38.361+05:30
+    updatedTimeString: 2018-12-22T22:14:38.666+05:30
     cacheType: 4
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2018-10-25T00:15:38.325+05:30
+    updatedTimeString: 2018-12-22T22:17:19.837+05:30
     cacheType: 5
   pullButtonContent:
     m_Text: Pull
@@ -26316,7 +26594,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 71}
     m_SelectedIDs: 30280000
     m_LastClickedID: 10288
-    m_ExpandedIDs: 00000000e22700005829000074290000a4290000a6290000fc290000fe2900001e2a00004a2e000044a5000046a5000048a5000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000e22700005829000074290000a4290000a6290000fc290000fe290000262a0000522e00006ea5000070a5000072a5000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -26344,7 +26622,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e22700005829000074290000a4290000a6290000fc290000fe2900001e2a00004a2e000044a5000046a5000048a50000
+    m_ExpandedIDs: 00000000e22700005829000074290000a4290000a6290000fc290000fe290000262a0000522e00006ea5000070a5000072a50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -26461,29 +26739,29 @@ MonoBehaviour:
     height: 479
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 32}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: d8f2fffff6f3ffff1af5ffff9efbffff00000000500a01002e13010064130100ce140100ee140100521f0100fc2301001e240100d0340100a8470100564901000a4f0100384f01005c530100965c0100125f0100f2610100f26a0100
+    m_ExpandedIDs: 50c3ffff20c4ffff5ec4ffff62c4ffff82c4fffff6c4ffff3ac5ffff3ec5ffff36d0ffff9efbffff000000005249000080700000a2900000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: barrier (4)
-      m_OriginalName: barrier (4)
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -52634
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 3}
     m_SearchString: 
   m_ExpandedScenes:
-  - scene01
+  - 
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -26515,14 +26793,14 @@ MonoBehaviour:
     height: 479
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 1560.5757297606099
+  lastFramingTime: 552.891114268529
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.6814193, y: -26.63719, z: 58.4246}
+    m_Target: {x: 180.42993, y: 75.97004, z: -160.48628}
     speed: 2
-    m_Value: {x: -1.6814193, y: -26.63719, z: 58.4246}
+    m_Value: {x: 180.42993, y: 75.97004, z: -160.48628}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -26546,13 +26824,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.16901985, y: -0.12708618, z: 0.022244943, w: 0.97713774}
+    m_Target: {x: -0.11978368, y: -0.16915269, z: 0.020445218, w: -0.978094}
     speed: 2
-    m_Value: {x: 0.16901888, y: -0.12708545, z: 0.022244817, w: 0.97713214}
+    m_Value: {x: -0.11978089, y: -0.16914876, z: 0.020444743, w: -0.9780713}
   m_Size:
-    m_Target: 157.66034
+    m_Target: 151.63472
     speed: 2
-    m_Value: 157.66034
+    m_Value: 151.63472
   m_Ortho:
     m_Target: 0
     speed: 2
