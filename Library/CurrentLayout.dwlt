@@ -117,7 +117,7 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 771
-  m_MinSize: {x: 508, y: 492}
+  m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
   controlID: 26
@@ -139,16 +139,16 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 771
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 12}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 13}
   - {fileID: 14}
   - {fileID: 12}
-  m_Selected: 3
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 3
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -255,8 +255,8 @@ MonoBehaviour:
     y: 0
     width: 1052
     height: 500
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -296,10 +296,10 @@ MonoBehaviour:
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
-  changeTab: 3
-  activeTab: 3
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
+  changeTab: 2
+  activeTab: 2
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
@@ -493,9 +493,6 @@ MonoBehaviour:
         keys:
         - 00000000000000001000000000000000
         - e4570831dff7af544af14d962e524990
-        - dc3807c32f474a14587915aa436fc070
-        - db6460d0358257b4fa769f4a5e586777
-        - 625415f7f9b328c42b5546ab768efa19
         values:
         - path: Assets
           label: Assets
@@ -533,67 +530,11 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
-        - path: Assets\Environment\city_base.ma
-          label: city_base.ma
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Environment\city_base.ma
-            fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\city_base.ma
-            projectPath: Assets\Environment\city_base.ma
-            originalPath: 
-            status: 1
-            staged: 0
-        - path: Assets\Environment\curved_lane.ma
-          label: curved_lane.ma
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Environment\curved_lane.ma
-            fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\curved_lane.ma
-            projectPath: Assets\Environment\curved_lane.ma
-            originalPath: 
-            status: 1
-            staged: 0
-        - path: Assets\Environment\straight_lane.ma
-          label: straight_lane.ma
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Environment\straight_lane.ma
-            fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\straight_lane.ma
-            projectPath: Assets\Environment\straight_lane.ma
-            originalPath: 
-            status: 1
-            staged: 0
       folders:
         keys:
         - Assets
         - Assets\Environment
         - Library
-        - Library\metadata
-        - Library\metadata\00
         values:
         - path: Assets
           label: Assets
@@ -634,42 +575,6 @@ MonoBehaviour:
         - path: Library
           label: Library
           level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Library\metadata
-          label: metadata
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Library\metadata\00
-          label: 00
-          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -749,27 +654,9 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: Assets\Environment\city_base.ma
-        label: city_base.ma
+      - path: Assets\Environment\Buildings.meta
+        label: Buildings.meta
         level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Environment\city_base.ma
-          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\city_base.ma
-          projectPath: Assets\Environment\city_base.ma
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Assets\Environment\city_base.ma.meta
-        label: city_base.ma.meta
-        level: 3
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -779,81 +666,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Environment\city_base.ma.meta
-          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\city_base.ma.meta
-          projectPath: Assets\Environment\city_base.ma.meta
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Assets\Environment\curved_lane.ma
-        label: curved_lane.ma
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Environment\curved_lane.ma
-          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\curved_lane.ma
-          projectPath: Assets\Environment\curved_lane.ma
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Assets\Environment\curved_lane.ma.meta
-        label: curved_lane.ma.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Environment\curved_lane.ma.meta
-          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\curved_lane.ma.meta
-          projectPath: Assets\Environment\curved_lane.ma.meta
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Assets\Environment\straight_lane.ma
-        label: straight_lane.ma
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Environment\straight_lane.ma
-          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\straight_lane.ma
-          projectPath: Assets\Environment\straight_lane.ma
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Assets\Environment\straight_lane.ma.meta
-        label: straight_lane.ma.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Environment\straight_lane.ma.meta
-          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\straight_lane.ma.meta
-          projectPath: Assets\Environment\straight_lane.ma.meta
+          path: Assets\Environment\Buildings.meta
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\Buildings.meta
+          projectPath: Assets\Environment\Buildings.meta
           originalPath: 
           status: 1
           staged: 0
@@ -893,96 +708,6 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
-      - path: Library\CurrentLayout.dwlt
-        label: CurrentLayout.dwlt
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\CurrentLayout.dwlt
-          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\CurrentLayout.dwlt
-          projectPath: Library\CurrentLayout.dwlt
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\metadata
-        label: metadata
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\metadata\00
-        label: 00
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library\metadata\00\00000000000000004000000000000000
-        label: 00000000000000004000000000000000
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\metadata\00\00000000000000004000000000000000
-          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\metadata\00\00000000000000004000000000000000
-          projectPath: Library\metadata\00\00000000000000004000000000000000
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-        label: shadercompiler-UnityShaderCompiler.exe0.log
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\shadercompiler-UnityShaderCompiler.exe0.log
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-          originalPath: 
-          status: 3
-          staged: 0
       selectedNode:
         path: 
         label: 
@@ -1003,39 +728,9 @@ MonoBehaviour:
           status: 0
           staged: 0
     gitStatusEntries:
-    - path: Assets\Environment\city_base.ma
-      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\city_base.ma
-      projectPath: Assets\Environment\city_base.ma
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Assets\Environment\city_base.ma.meta
-      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\city_base.ma.meta
-      projectPath: Assets\Environment\city_base.ma.meta
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Assets\Environment\curved_lane.ma
-      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\curved_lane.ma
-      projectPath: Assets\Environment\curved_lane.ma
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Assets\Environment\curved_lane.ma.meta
-      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\curved_lane.ma.meta
-      projectPath: Assets\Environment\curved_lane.ma.meta
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Assets\Environment\straight_lane.ma
-      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\straight_lane.ma
-      projectPath: Assets\Environment\straight_lane.ma
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Assets\Environment\straight_lane.ma.meta
-      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\straight_lane.ma.meta
-      projectPath: Assets\Environment\straight_lane.ma.meta
+    - path: Assets\Environment\Buildings.meta
+      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\Buildings.meta
+      projectPath: Assets\Environment\Buildings.meta
       originalPath: 
       status: 1
       staged: 0
@@ -1045,40 +740,227 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    - path: Library\CurrentLayout.dwlt
-      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\CurrentLayout.dwlt
-      projectPath: Library\CurrentLayout.dwlt
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\metadata\00\00000000000000004000000000000000
-      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\metadata\00\00000000000000004000000000000000
-      projectPath: Library\metadata\00\00000000000000004000000000000000
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-      fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\shadercompiler-UnityShaderCompiler.exe0.log
-      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-      originalPath: 
-      status: 3
-      staged: 0
-    changedFilesText: 10 changed files
+    changedFilesText: 2 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2018-12-22T22:14:38.613+05:30
+      updatedTimeString: 2018-12-23T21:22:51.193+05:30
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-12-22T22:17:19.837+05:30
+      updatedTimeString: 2018-12-23T21:27:11.068+05:30
       cacheType: 5
     lastLocksChangedEvent:
-      updatedTimeString: 2018-12-22T22:14:38.697+05:30
+      updatedTimeString: 2018-12-23T21:18:13.565+05:30
       cacheType: 6
   historyView:
-    currentLogHasUpdate: 0
-    currentTrackingStatusHasUpdate: 0
+    currentLogHasUpdate: 1
+    currentTrackingStatusHasUpdate: 1
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: 56b33a18ed27b93eb60c50e7062c181d3675bf5b
+        mergeA: 
+        mergeB: 
+        authorName: DESKTOP-8PFDKFF\DELL
+        authorEmail: shubham.baghe8910@gmail.com
+        commitEmail: shubham.baghe8910@gmail.com
+        commitName: DESKTOP-8PFDKFF\DELL
+        summary: adding scene02
+        description: "adding scene02\r\n\r\nother revised models imported to scene
+          2"
+        timeString: 2018-12-23T21:21:04.000+05:30
+        commitTimeString: 2018-12-23T21:21:04.000+05:30
+        changes:
+        - path: Assets\Environment\build1.ma
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\build1.ma
+          projectPath: Assets\Environment\build1.ma
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Environment\build1.ma.meta
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\build1.ma.meta
+          projectPath: Assets\Environment\build1.ma.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Environment\build2.ma
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\build2.ma
+          projectPath: Assets\Environment\build2.ma
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Environment\build2.ma.meta
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\build2.ma.meta
+          projectPath: Assets\Environment\build2.ma.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Environment\build3.ma
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\build3.ma
+          projectPath: Assets\Environment\build3.ma
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Environment\build3.ma.meta
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\build3.ma.meta
+          projectPath: Assets\Environment\build3.ma.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Environment\city_base.ma
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\city_base.ma
+          projectPath: Assets\Environment\city_base.ma
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Environment\city_base.ma.meta
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\city_base.ma.meta
+          projectPath: Assets\Environment\city_base.ma.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Environment\curved_lane.ma
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\curved_lane.ma
+          projectPath: Assets\Environment\curved_lane.ma
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Environment\curved_lane.ma.meta
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\curved_lane.ma.meta
+          projectPath: Assets\Environment\curved_lane.ma.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Environment\straight_lane.ma
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\straight_lane.ma
+          projectPath: Assets\Environment\straight_lane.ma
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Environment\straight_lane.ma.meta
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\straight_lane.ma.meta
+          projectPath: Assets\Environment\straight_lane.ma.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Environment\vehicles.ma
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\vehicles.ma
+          projectPath: Assets\Environment\vehicles.ma
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Environment\vehicles.ma.meta
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\vehicles.ma.meta
+          projectPath: Assets\Environment\vehicles.ma.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Scene\scene02.unity
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Scene\scene02.unity
+          projectPath: Assets\Scene\scene02.unity
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Scene\scene02.unity.meta
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Scene\scene02.unity.meta
+          projectPath: Assets\Scene\scene02.unity.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Library\CurrentLayout.dwlt
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\CurrentLayout.dwlt
+          projectPath: Library\CurrentLayout.dwlt
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\InspectorExpandedItems.asset
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\InspectorExpandedItems.asset
+          projectPath: Library\InspectorExpandedItems.asset
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\LastSceneManagerSetup.txt
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\LastSceneManagerSetup.txt
+          projectPath: Library\LastSceneManagerSetup.txt
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\assetDatabase3
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\assetDatabase3
+          projectPath: Library\assetDatabase3
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\metadata\00\00000000000000004000000000000000
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\metadata\00\00000000000000004000000000000000
+          projectPath: Library\metadata\00\00000000000000004000000000000000
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\shadercompiler-UnityShaderCompiler.exe0.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          originalPath: 
+          status: 3
+          staged: 0
+      - commitID: 8b10b0acd0a4e0608ca3ffc43d4e4406dd5ac9c7
+        mergeA: 
+        mergeB: 
+        authorName: DESKTOP-8PFDKFF\DELL
+        authorEmail: shubham.baghe8910@gmail.com
+        commitEmail: shubham.baghe8910@gmail.com
+        commitName: DESKTOP-8PFDKFF\DELL
+        summary: adding scene1 build03
+        description: adding scene1 build03
+        timeString: 2018-10-25T01:23:31.000+05:30
+        commitTimeString: 2018-10-25T01:23:31.000+05:30
+        changes:
+        - path: Assets\Scene\scene01.unity
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Scene\scene01.unity
+          projectPath: Assets\Scene\scene01.unity
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\CurrentLayout.dwlt
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\CurrentLayout.dwlt
+          projectPath: Library\CurrentLayout.dwlt
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\assetDatabase3
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\assetDatabase3
+          projectPath: Library\assetDatabase3
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\metadata\00\00000000000000004000000000000000
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\metadata\00\00000000000000004000000000000000
+          projectPath: Library\metadata\00\00000000000000004000000000000000
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\shadercompiler-UnityShaderCompiler.exe0.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: scene03Build_Data\globalgamemanagers
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene03Build_Data\globalgamemanagers
+          projectPath: scene03Build_Data\globalgamemanagers
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: scene03Build_Data\level0
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene03Build_Data\level0
+          projectPath: scene03Build_Data\level0
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: scene03Build_Data\sharedassets0.assets
+          fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene03Build_Data\sharedassets0.assets
+          projectPath: scene03Build_Data\sharedassets0.assets
+          originalPath: 
+          status: 3
+          staged: 0
       - commitID: 22f39cf34c4e31498b4ccfead9526b1718d031ca
         mergeA: 
         mergeB: 
@@ -12165,7 +12047,7 @@ MonoBehaviour:
           status: 4
           staged: 0
       statusAhead: 0
-      selectedIndex: 14
+      selectedIndex: 16
     selectedEntry:
       commitID: 60ae4707dcbeca75c19da20d91deaac146379de8
       mergeA: 
@@ -12649,6 +12531,210 @@ MonoBehaviour:
         staged: 0
     detailsScroll: {x: 0, y: 0}
     logEntries:
+    - commitID: 56b33a18ed27b93eb60c50e7062c181d3675bf5b
+      mergeA: 
+      mergeB: 
+      authorName: DESKTOP-8PFDKFF\DELL
+      authorEmail: shubham.baghe8910@gmail.com
+      commitEmail: shubham.baghe8910@gmail.com
+      commitName: DESKTOP-8PFDKFF\DELL
+      summary: adding scene02
+      description: "adding scene02\r\n\r\nother revised models imported to scene 2"
+      timeString: 2018-12-23T21:21:04.000+05:30
+      commitTimeString: 2018-12-23T21:21:04.000+05:30
+      changes:
+      - path: Assets\Environment\build1.ma
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\build1.ma
+        projectPath: Assets\Environment\build1.ma
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Environment\build1.ma.meta
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\build1.ma.meta
+        projectPath: Assets\Environment\build1.ma.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Environment\build2.ma
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\build2.ma
+        projectPath: Assets\Environment\build2.ma
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Environment\build2.ma.meta
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\build2.ma.meta
+        projectPath: Assets\Environment\build2.ma.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Environment\build3.ma
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\build3.ma
+        projectPath: Assets\Environment\build3.ma
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Environment\build3.ma.meta
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\build3.ma.meta
+        projectPath: Assets\Environment\build3.ma.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Environment\city_base.ma
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\city_base.ma
+        projectPath: Assets\Environment\city_base.ma
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Environment\city_base.ma.meta
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\city_base.ma.meta
+        projectPath: Assets\Environment\city_base.ma.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Environment\curved_lane.ma
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\curved_lane.ma
+        projectPath: Assets\Environment\curved_lane.ma
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Environment\curved_lane.ma.meta
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\curved_lane.ma.meta
+        projectPath: Assets\Environment\curved_lane.ma.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Environment\straight_lane.ma
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\straight_lane.ma
+        projectPath: Assets\Environment\straight_lane.ma
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Environment\straight_lane.ma.meta
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\straight_lane.ma.meta
+        projectPath: Assets\Environment\straight_lane.ma.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Environment\vehicles.ma
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\vehicles.ma
+        projectPath: Assets\Environment\vehicles.ma
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Environment\vehicles.ma.meta
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Environment\vehicles.ma.meta
+        projectPath: Assets\Environment\vehicles.ma.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Scene\scene02.unity
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Scene\scene02.unity
+        projectPath: Assets\Scene\scene02.unity
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Scene\scene02.unity.meta
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Scene\scene02.unity.meta
+        projectPath: Assets\Scene\scene02.unity.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\CurrentLayout.dwlt
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\CurrentLayout.dwlt
+        projectPath: Library\CurrentLayout.dwlt
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\InspectorExpandedItems.asset
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\InspectorExpandedItems.asset
+        projectPath: Library\InspectorExpandedItems.asset
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\LastSceneManagerSetup.txt
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\LastSceneManagerSetup.txt
+        projectPath: Library\LastSceneManagerSetup.txt
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\assetDatabase3
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\assetDatabase3
+        projectPath: Library\assetDatabase3
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\metadata\00\00000000000000004000000000000000
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\metadata\00\00000000000000004000000000000000
+        projectPath: Library\metadata\00\00000000000000004000000000000000
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\shadercompiler-UnityShaderCompiler.exe0.log
+        projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        originalPath: 
+        status: 3
+        staged: 0
+    - commitID: 8b10b0acd0a4e0608ca3ffc43d4e4406dd5ac9c7
+      mergeA: 
+      mergeB: 
+      authorName: DESKTOP-8PFDKFF\DELL
+      authorEmail: shubham.baghe8910@gmail.com
+      commitEmail: shubham.baghe8910@gmail.com
+      commitName: DESKTOP-8PFDKFF\DELL
+      summary: adding scene1 build03
+      description: adding scene1 build03
+      timeString: 2018-10-25T01:23:31.000+05:30
+      commitTimeString: 2018-10-25T01:23:31.000+05:30
+      changes:
+      - path: Assets\Scene\scene01.unity
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Assets\Scene\scene01.unity
+        projectPath: Assets\Scene\scene01.unity
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\CurrentLayout.dwlt
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\CurrentLayout.dwlt
+        projectPath: Library\CurrentLayout.dwlt
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\assetDatabase3
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\assetDatabase3
+        projectPath: Library\assetDatabase3
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\metadata\00\00000000000000004000000000000000
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\metadata\00\00000000000000004000000000000000
+        projectPath: Library\metadata\00\00000000000000004000000000000000
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\Library\shadercompiler-UnityShaderCompiler.exe0.log
+        projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: scene03Build_Data\globalgamemanagers
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene03Build_Data\globalgamemanagers
+        projectPath: scene03Build_Data\globalgamemanagers
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: scene03Build_Data\level0
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene03Build_Data\level0
+        projectPath: scene03Build_Data\level0
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: scene03Build_Data\sharedassets0.assets
+        fullPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation\scene03Build_Data\sharedassets0.assets
+        projectPath: scene03Build_Data\sharedassets0.assets
+        originalPath: 
+        status: 3
+        staged: 0
     - commitID: 22f39cf34c4e31498b4ccfead9526b1718d031ca
       mergeA: 
       mergeB: 
@@ -26295,7 +26381,7 @@ MonoBehaviour:
           status: 0
           staged: 0
     lastLogChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2018-12-23T21:54:36.626+05:30
       cacheType: 3
     lastTrackingStatusChangedEvent:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
@@ -26358,7 +26444,7 @@ MonoBehaviour:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 6
     lastUserChangedEvent:
-      updatedTimeString: 2018-08-22T21:14:51.590+05:30
+      updatedTimeString: 2018-12-23T21:27:32.271+05:30
       cacheType: 7
     lockedFiles: []
     gitStatusEntries:
@@ -26404,7 +26490,7 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    currentUsername: 
+    currentUsername: sid8910
     unlockFileMenuContent:
       m_Text: Release Lock
       m_Image: {fileID: 0}
@@ -26429,13 +26515,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the master remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2018-12-22T22:14:38.613+05:30
+    updatedTimeString: 2018-12-23T21:22:51.193+05:30
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2018-12-22T22:14:38.666+05:30
+    updatedTimeString: 2018-12-23T21:27:22.128+05:30
     cacheType: 4
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2018-12-22T22:17:19.837+05:30
+    updatedTimeString: 2018-12-23T21:27:11.068+05:30
     cacheType: 5
   pullButtonContent:
     m_Text: Pull
@@ -26591,10 +26677,10 @@ MonoBehaviour:
   m_LastProjectPath: C:\Users\DELL\Desktop\Unity Projects\Car Simulation
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 71}
-    m_SelectedIDs: 30280000
-    m_LastClickedID: 10288
-    m_ExpandedIDs: 00000000e22700005829000074290000a4290000a6290000fc290000fe290000262a0000522e00006ea5000070a5000072a5000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 167}
+    m_SelectedIDs: 38280000
+    m_LastClickedID: 10296
+    m_ExpandedIDs: 00000000e227000038280000602900008429000090290000b4290000b6290000142a0000162a00003e2a00006a2e000086a5000088a500008aa5000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -26622,7 +26708,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e22700005829000074290000a4290000a6290000fc290000fe290000262a0000522e00006ea5000070a5000072a50000
+    m_ExpandedIDs: 00000000e22700006029000084290000b4290000b6290000142a0000162a00003e2a00006a2e000086a5000088a500008aa50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -26650,7 +26736,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000000000005a32000098ccfcff
+    m_ExpandedInstanceIDs: c6230000000000005a32000098ccfcffea270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -26739,10 +26825,10 @@ MonoBehaviour:
     height: 479
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 32}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 50c3ffff20c4ffff5ec4ffff62c4ffff82c4fffff6c4ffff3ac5ffff3ec5ffff36d0ffff9efbffff000000005249000080700000a2900000
+    m_ExpandedIDs: ba6efaffc66efaffda6efaffec6efafff0e8fafffae8faff06e9faff0ce9faff1ae9faff1ee9faff2ce9faff64f7faff70f7faff86f7faff92f7faff3843fbff4443fbff5a43fbff6643fbfffa61fbff0a62fbff1462fbffe678fbfff678fbff0079fbffd6b0fbffe6b0fbfff0b0fbfff2b0fbffc235fcffe435fcfff435fcfffe35fcff0c87fcff2287fcff2c87fcff72adfcffa4adfcffaeadfcff7e52ffff8e52ffff9a52ffffa052ffffb052ffffba52ffffb4d0ffff58f1ffff9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -26761,7 +26847,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 3}
     m_SearchString: 
   m_ExpandedScenes:
-  - 
+  - scene02
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -26793,14 +26879,14 @@ MonoBehaviour:
     height: 479
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 552.891114268529
+  lastFramingTime: 4340.489526086519
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 180.42993, y: 75.97004, z: -160.48628}
+    m_Target: {x: 140.21967, y: 107.03513, z: -293.98}
     speed: 2
-    m_Value: {x: 180.42993, y: 75.97004, z: -160.48628}
+    m_Value: {x: 140.21967, y: 107.03513, z: -293.98}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -26824,13 +26910,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.11978368, y: -0.16915269, z: 0.020445218, w: -0.978094}
+    m_Target: {x: -0.05183134, y: 0.9358915, z: -0.31154785, w: -0.15640044}
     speed: 2
-    m_Value: {x: -0.11978089, y: -0.16914876, z: 0.020444743, w: -0.9780713}
+    m_Value: {x: -0.051828682, y: 0.9358435, z: -0.31153187, w: -0.15639243}
   m_Size:
-    m_Target: 151.63472
+    m_Target: 41.80644
     speed: 2
-    m_Value: 151.63472
+    m_Value: 41.80644
   m_Ortho:
     m_Target: 0
     speed: 2
